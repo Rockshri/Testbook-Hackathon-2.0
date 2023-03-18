@@ -1,0 +1,144 @@
+:root {
+  --ffamily: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  font-style: inherit;
+}
+body {
+  min-height: 100vh;
+  width: 100%;
+
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  overflow-y: auto;
+}
+.container {
+  min-height: 600px;
+  width: 1000px;
+
+  border-radius: 8px;
+  border-bottom: hidden;
+  box-shadow: 3px 3px 15px black;
+  position: relative;
+}
+.container header {
+  min-height: 45%;
+  width: 100%;
+
+  background-color: rgba(63, 63, 219, 0.911);
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+.container header #head {
+  font-size: 30px;
+  font-weight: bolder;
+  font-family: var(--ffamily);
+  letter-spacing: 3px;
+  color: whitesmoke;
+  text-align: center;
+}
+.container header #input {
+  width: 500px;
+  min-height: 40px;
+  margin-top: 15px;
+}
+.container header #input input {
+  height: 100%;
+  width: 80%;
+  margin: 0px 20px 0px 0px;
+  border: none;
+  font-size: 15px;
+  outline: 1px solid whitesmoke;
+  border-radius: 8px;
+  padding: 1px 10px;
+}
+.container header #input input:focus {
+  border: 2px black solid;
+}
+.container header #input button {
+  height: 100%;
+  width: 15%;
+  border: none;
+  font-size: 15px;
+  outline: 1px solid whitesmoke;
+  border-radius: 8px;
+  cursor: pointer;
+}
+.container header #input button:hover {
+  background-color: rgb(83, 83, 83);
+  color: whitesmoke;
+  transition: cubic-bezier(0.86, 0, 0.07, 1);
+}
+.container #info {
+  width: 100%;
+  text-align: center;
+  margin: 5px 0px 5px 0px;
+  font-size: 20px;
+  text-decoration: underline;
+  font-family: var(--ffamily);
+  letter-spacing: 2px;
+  padding-top: 15px;
+  height: 50px;
+}
+
+.container #items {
+  max-height: 250px;
+  width: 100%;
+
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+.container h4 {
+  width: 100%;
+  height: 80px;
+  font-size: 17px;
+  font-weight: 600;
+  opacity: 0.8;
+  letter-spacing: 2px;
+  font-family: var(--ffamily);
+
+  text-align: center;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+
+.createdDiv {
+  height: 40px;
+  width: 100%;
+  background-color: rgba(183, 183, 183, 0.475);
+  margin: 7px 9px 0px 0px;
+  padding: 2px 2px 2px 2px;
+  display: flex;
+  justify-content: space-between;
+}
+
+#todo-text {
+  list-style: none;
+  width: 400px;
+
+  margin: 0px 5px;
+  font-size: 25px;
+  font-family: var(--ffamily);
+  display: inline-block;
+}
+#todo-text1 {
+  border: none;
+  width: 100px;
+
+  margin: 0px 5px;
+  font-size: 25px;
+  font-family: var(--ffamily);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 4px;
+}
+/* .line-through{
+    text-decoration: line-through;
+} */

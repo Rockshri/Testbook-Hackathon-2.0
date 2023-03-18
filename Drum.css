@@ -1,0 +1,107 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: inherit;
+}
+body {
+  height: 100vh;
+  width: 100%;
+  background-color: azure;
+}
+.Name {
+  height: 300px;
+  border: 1px black solid;
+  background-color: rgb(247, 63, 66);
+  width: 100%;
+  padding: 50px 0px 50px 0px;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  font-size: 150px;
+  text-shadow: 6px 6px 14px rgba(65, 64, 66, 0.886);
+}
+.Drum {
+  height: 270px;
+  width: 100%;
+  background-color: rgba(132, 255, 190, 0.884);
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  justify-content: space-evenly;
+  padding-top: 30px;
+  padding-left: 15px;
+}
+.Drum button {
+  height: 150px;
+  width: 150px;
+  margin: 10px;
+  padding: 1px 6px;
+  border: 10px solid rgb(71, 113, 250);
+  border-radius: 8px;
+  box-shadow: 3px 3px 5px grey;
+}
+.Drum .set1 {
+  background-image: url("https://tse3.mm.bing.net/th?id=OIP.p__ur0yy7zBp0FQxWjdnTQHaG-&pid=Api&P=0");
+  background-size: contain;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  font-size: 100px;
+  color: rgba(232, 236, 0, 0.911);
+}
+.Drum .set2 {
+  background-image: url("https://tse1.mm.bing.net/th?id=OIP.o9pNWE8_duQxSbOWL6VlDwHaGi&pid=Api&P=0");
+  background-size: 140px 140px;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  font-size: 100px;
+  color: rgba(236, 0, 0, 0.911);
+}
+.Drum .set3 {
+  background-image: url("https://tse3.mm.bing.net/th?id=OIP.cbN8OUA4G0okCYV3TEjXcwHaE5&pid=Api&P=0");
+  background-size: 140px 140px;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  font-size: 100px;
+  color: rgba(0, 83, 236, 0.911);
+}
+.Drum .set4 {
+  background-image: url("https://tse4.mm.bing.net/th?id=OIP.nxgJG5eyIYBsKbyiI0_URgHaHa&pid=Api&P=0");
+  background-size: 140px 140px;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  font-size: 100px;
+  color: rgba(31, 236, 0, 0.911);
+}
+.Drum .set5 {
+  background-image: url("https://tse1.mm.bing.net/th?id=OIP.S_Sf7fy0jFdqpeTeXGcSugHaEo&pid=Api&P=0");
+  background-size: 140px 140px;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  font-size: 100px;
+  color: rgba(236, 0, 0, 0.911);
+}
+.Drum .set6 {
+  background-image: url("https://tse2.mm.bing.net/th?id=OIP.szQGREiQc0xcbfteZMbURgHaFP&pid=Api&P=0");
+  background-size: 140px 140px;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  font-size: 100px;
+  color: rgba(228, 0, 236, 0.911);
+}
+.Drum .set7 {
+  background-image: url("https://tse1.mm.bing.net/th?id=OIP.mrE9MS9Zgv4YxSfVYKyYwQHaFj&pid=Api&P=0");
+  background-size: 140px 140px;
+  background-repeat: no-repeat;
+  cursor: pointer;
+  font-size: 100px;
+  color: rgba(0, 145, 236, 0.911);
+}
+.foot {
+  height: 100px;
+  display: grid;
+  align-items: center;
+  justify-items: center;
+  font-size: 40px;
+  color: blueviolet;
+  text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.705);
+}
